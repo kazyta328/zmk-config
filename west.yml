@@ -1,0 +1,9 @@
+manifest:
+  version: 0.13
+  projects:
+    - name: zmk
+      url: https://github.com/zmkfirmware/zmk
+      revision: main
+      import: app/west.yml
+  self:
+    path: zmk-config
